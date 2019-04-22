@@ -18,7 +18,8 @@
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190422182713144.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190422182725241.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxOTg0NjM0,size_16,color_FFFFFF,t_70)
 
- ### [更换api直接修改全局app.js里的headurl]()
+ ### [更换api直接修改全局app.js里的headurl](#here)
+ <span id = "here">如下图所示</span>
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190422182719921.png)
 # 关于豆瓣api
 ### 这个里面的豆瓣api原来可以使用，但是后来可能是请求过多我使用时出现了400错误，可能是封掉了我的ip
