@@ -6,9 +6,7 @@
 
 ###                                                                                             ---完成时间2019.4.3
 ## 页面展示
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190422182800768.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190422183307990.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxOTg0NjM0,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190422183318596.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxOTg0NjM0,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190422184000967.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxOTg0NjM0,size_16,color_FFFFFF,t_70)
 ## 说明
 ### 已完成教程里的电影看看所有功能，除此之外添加了，电影详情列表
 ### 自定义美化了部分界面
