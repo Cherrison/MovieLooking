@@ -4,7 +4,7 @@
  
 ### 电影看看看-初代完成于2019.3.22.是我个人在学习完电影周周看项目后根据所学内容实现了教程中的内容，利用了一些学到的知识做了一些自己想法的改进，增加了一些自己的内容，分享希望与大家共同学习
 
-###                                                                                             ---完成时间2019.3.22
+###                                                                                                            ---完成时间2019.4.3
 ## 页面展示
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190422184000967.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxOTg0NjM0,size_16,color_FFFFFF,t_70)
 ## 说明
