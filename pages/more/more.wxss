@@ -1,0 +1,38 @@
+
+.card{
+  display: flex;
+  border: 2px solid azure;
+  border-radius: 10%;
+  background-color:  beige;
+  width: 680rpx;
+  height: 16%;
+  margin-bottom: 12rpx;
+}
+
+.movie-image{
+  width: 160rpx;
+  height: 90%;
+  border-radius: 18%;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  margin-left: 6rpx;
+}
+.movie-details{
+  display: flex;
+  flex-direction: column;
+  font-size: 30rpx;
+}
+.card-display{
+  background-color: #eee;
+  width: 100%;
+  height: 300vh;
+/**弹性盒子实现布局目标*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25rpx;
+}
+.card-background{ 
+  background: url('https://s2.ax1x.com/2019/03/23/AJmS00.gif');
+  background-size: auto;
+}

@@ -1,0 +1,56 @@
+.nav-default{
+  color: green;
+}
+
+.nav-hover{
+  color: red;
+}
+
+.text-con{
+  width:550rpx;
+
+}
+.about_card{
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  height: 300rpx;
+/**弹性盒子实现布局目标*/
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20rpx;
+  border-radius: 8%;
+}
+
+.about_item{
+  font-family: "iconfont";
+  display: block;
+  background-color: rgb(121, 112, 223);
+  font-size: 34rpx;
+  border-radius: 7%;
+  height: 60rpx;
+  width: 100%;
+  text-align: left;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  margin-left: 20rpx;
+  padding-top: 8rpx;
+  justify-content: center;
+}
+
+.about_item.arrow::before{
+  font-family: "iconfont";
+  display: block;
+  position: absolute;
+  content: "\e6a3";
+  font-size: 34rpx;
+  color:yellow;
+  height: 60rpx;
+  width: 30rpx;
+  right: 80rpx;
+  opacity: 30%;
+}
+.content{
+  display:inline;
+  color:yellow;
+}

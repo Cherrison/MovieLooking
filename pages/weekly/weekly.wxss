@@ -1,0 +1,50 @@
+.movie{
+  display: flex;
+}
+
+.movie-image{
+  width: 500rpx;
+  height: 300rpx;
+  border-radius: 8%;
+}
+
+.movie-details{
+  display: flex;
+  flex-direction: column;
+  width:550rpx;
+}
+
+.movie-swiper{
+  height:90vh;
+  background-image: url('https://s2.ax1x.com/2019/03/23/AJKvCT.gif');
+  font-weight: bold;
+  color: rgb(207, 180, 25);
+}
+
+.movie-card{
+  height: 100%;
+  background: rgb(111, 118, 134);
+  margin: 0rpx 20rpx;
+  position: relative;
+}
+
+.return-button{
+  position: absolute;
+  right: 0;
+  top:20px;
+  font-size: 26rpx;
+  font-weight: bold;
+  border:1px solid blue;
+  border-radius: 10%;
+  margin-right: 20rpx;
+}
+
+.more-button{
+  position: absolute;
+  right: 10rpx;
+  bottom: 20rpx;
+  font-size: 25rpx;
+  font-weight: bold;
+  border: 6rpx transparent darkgreen;
+  border-radius: 15%;
+}

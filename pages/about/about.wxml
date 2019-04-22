@@ -1,0 +1,22 @@
+<view class='container'>
+  <image src='https://s2.ax1x.com/2019/03/23/AJtWLT.gif' class='about-banner'></image>
+  <text class='info'>电影看看看</text>
+  <view>
+    <text>我们 </text>
+    <navigator style='display:inline;' url='/pages/weekly/weekly' open-type='switchTab' hover-class='nav-hover' class='nav-default'>每周发布
+    </navigator>
+
+    <text>最新电影信息   </text>
+  </view>
+
+  <text class='info'>关于我</text>
+  <view class='about_card'>
+    <view class="about_item arrow">
+      <view class='content' bindtap='CopyLink' data-link='https://github.com/Cherrison'>
+        <text class='icon-github text-yellow'></text>
+        <text class='text-yellow'>GitHub</text>
+      </view>
+    </view>
+  </view>
+  <text class='text-con'>__电影看看看-完成于2019.4.3.是我个人在学习完电影周周看项目后根据所学内容实现了教程中的内容，利用了一些学到的知识做了一些自己想法的改进，增加了一些自己的内容，分享希望与大家共同学习</text>
+</view>

@@ -1,0 +1,10 @@
+<view class='card-background card-display'>
+    <view style="opacity:0.66" class='card' wx:for="{{movie.subjects}}" wx:key="">
+       <image src='{{item.images.small}}' class='movie-image'></image>
+        <view bindtap='douban' class='movie-details' data-movie-id='{{item.id}}'>
+          <text>第{{index+1}}名: {{item.title}}</text>
+          <text>时间: {{item.pubdates}}</text>
+          <text style='font-size=20rpx;color:red;'> 类型：{{item.genres[0]}} 评分：{{item.rating.average}}</text>
+        </view>
+    </view>
+</view>

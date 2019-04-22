@@ -1,0 +1,44 @@
+<view>
+  <swiper class='movie-swiper' indicator-dots='{{true}}'
+  previous-margin='50rpx' next-margin='50rpx'
+  current='{{currentIndex}}'>
+
+    <swiper-item style="opacity:0.66" class='movie' wx:for="{{weeklyMovieList}}" wx:key="">
+
+      <view class='container movie-card' bindtap='f1' data-movie-id='{{item.id}}'>
+
+        <image src='{{item.imagePath}}' class='movie-image'></image>
+
+          <text>第{{index+1}}期: {{item.name}}</text>
+
+          <button catchtap='goToTalkPage'>查看</button>
+
+          <text>点评: {{item.comment}}</text>
+
+          <text hidden="{{!item.isHighlyRecommended}}"       
+          style='font-size=20rpx;color:red;'> 强烈推荐 </text>
+
+          <text catchtap='f0' wx:if ='{{index < (weeklyMovieList.length - 1)}}' 
+          class='return-button'>返回本期</text>
+
+          <button catchtap='tomore' class='more-button'>更多</button>
+
+      </view>
+    </swiper-item>
+  </swiper>
+
+  <swiper>
+    <swiper-item>
+      <text>123</text>
+      <image src='/images/titanic.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <text>123</text>
+      <image src='/images/leon.png'></image>
+    </swiper-item>
+    <swiper-item>
+      <text>123</text>
+      <image src='/images/jf.png'></image>
+    </swiper-item>
+  </swiper>
+</view>
