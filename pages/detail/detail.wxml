@@ -4,8 +4,10 @@
 
   <text style='font-weight:bold; font-size: 50rpx;'>
   {{movie.title}}</text>
-  <text>想看：{{movie.wish_count}}</text>
-  <text>看过：{{movie.collect_count}}</text>
+  <view>
+    <text>想看：{{movie.wish_count}}\t\t</text>
+    <text>看过：{{movie.collect_count}}</text>
+  </view>
   <text>评分：{{movie.rating.average}}</text>
   <text class='text-con'>简介:{{movie.summary}}</text>
 
