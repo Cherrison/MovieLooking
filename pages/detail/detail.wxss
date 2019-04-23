@@ -4,4 +4,7 @@
 }
 .text-con{
   width:550rpx;
+  font-size: 32rpx;
+  height: 400rpx;
+  overflow: scroll;
 }
